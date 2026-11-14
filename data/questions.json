@@ -1,0 +1,197 @@
+{
+  "faq": [
+    {
+      "group": "troca_prazo",
+      "phrasings": [
+        "Qual o prazo para trocar um produto?",
+        "Tenho quantos dias para fazer uma troca?",
+        "Até quando posso trocar o que comprei?",
+        "Em quanto tempo preciso pedir a troca?"
+      ]
+    },
+    {
+      "group": "devolucao_prazo",
+      "phrasings": [
+        "Qual o prazo para devolver um produto por arrependimento?",
+        "Tenho quantos dias para desistir da compra?",
+        "Até quando posso devolver o que comprei no site?",
+        "Me arrependi da compra, em quanto tempo preciso devolver?"
+      ]
+    },
+    {
+      "group": "troca_custo",
+      "phrasings": [
+        "A troca tem custo de frete?",
+        "Preciso pagar o envio para trocar um produto?",
+        "Quem paga o frete da troca?",
+        "Trocar um produto é de graça?"
+      ]
+    },
+    {
+      "group": "reembolso_prazo",
+      "phrasings": [
+        "Em quanto tempo recebo o reembolso?",
+        "Quando o dinheiro da devolução volta para mim?",
+        "Qual o prazo do reembolso?",
+        "Devolvi o produto, quando vou receber o valor de volta?"
+      ]
+    },
+    {
+      "group": "frete_gratis",
+      "phrasings": [
+        "A partir de que valor o frete é grátis?",
+        "Quando o frete sai de graça?",
+        "Tem frete grátis?",
+        "Qual o valor mínimo para não pagar frete?"
+      ]
+    },
+    {
+      "group": "entrega_capitais",
+      "phrasings": [
+        "Qual o prazo de entrega para capitais?",
+        "Em quantos dias o pedido chega em uma capital?",
+        "Moro em capital, quanto tempo demora a entrega?",
+        "Quanto tempo leva a entrega nas capitais?"
+      ]
+    },
+    {
+      "group": "entrega_interior",
+      "phrasings": [
+        "Qual o prazo de entrega para o interior?",
+        "Em quantos dias o pedido chega em cidade do interior?",
+        "Moro no interior, quanto tempo demora a entrega?",
+        "Quanto tempo leva a entrega fora das capitais?"
+      ]
+    },
+    {
+      "group": "parcelamento",
+      "phrasings": [
+        "Em quantas vezes posso parcelar no cartão?",
+        "Qual o número máximo de parcelas sem juros?",
+        "Dá para parcelar a compra?",
+        "Posso dividir o pagamento no cartão de crédito em quantas vezes?"
+      ]
+    },
+    {
+      "group": "pix_desconto",
+      "phrasings": [
+        "Pagar com Pix tem desconto?",
+        "Qual o desconto para pagamento via Pix?",
+        "Se eu pagar no Pix fica mais barato?",
+        "Quanto ganho de desconto pagando por Pix?"
+      ]
+    },
+    {
+      "group": "garantia_eletronicos",
+      "phrasings": [
+        "Qual a garantia de produtos eletrônicos?",
+        "Eletrônicos têm quanto tempo de garantia?",
+        "Por quanto tempo vale a garantia de um eletrônico?",
+        "Comprei um eletrônico, qual o prazo de garantia?"
+      ]
+    },
+    {
+      "group": "garantia_moveis",
+      "phrasings": [
+        "Qual a garantia de móveis?",
+        "Móveis têm quanto tempo de garantia?",
+        "Por quanto tempo vale a garantia de um móvel?",
+        "Comprei um móvel, qual o prazo de garantia?"
+      ]
+    },
+    {
+      "group": "atendimento_horario",
+      "phrasings": [
+        "Qual o horário de atendimento?",
+        "Que horas a central de atendimento funciona?",
+        "Vocês atendem aos sábados?",
+        "Até que horas consigo falar com o atendimento?"
+      ]
+    },
+    {
+      "group": "pontos_regra",
+      "phrasings": [
+        "Como funciona o programa de pontos?",
+        "Quantos pontos ganho por real gasto?",
+        "Quanto vale cada ponto do programa?",
+        "Como acumulo e uso pontos na loja?"
+      ]
+    },
+    {
+      "group": "retirada_loja",
+      "phrasings": [
+        "Em quanto tempo o pedido fica pronto para retirada na loja?",
+        "Quando posso buscar meu pedido na loja?",
+        "Qual o prazo para retirar em loja?",
+        "Escolhi retirar na loja, em quantos dias fica disponível?"
+      ]
+    },
+    {
+      "group": "cancelamento",
+      "phrasings": [
+        "Como cancelo um pedido?",
+        "Até quando posso cancelar a compra?",
+        "Dá para cancelar um pedido já feito?",
+        "Quero cancelar meu pedido, como faço?"
+      ]
+    },
+    {
+      "group": "senha",
+      "phrasings": [
+        "Como redefino minha senha?",
+        "Esqueci a senha, o que faço?",
+        "Como troco a senha da minha conta?",
+        "Não lembro minha senha, como recupero?"
+      ]
+    }
+  ],
+  "personal": [
+    {
+      "group": "status_pedido",
+      "phrasings": [
+        "Qual o status do meu pedido?",
+        "Como está o meu pedido?"
+      ]
+    },
+    {
+      "group": "saldo_pontos",
+      "phrasings": [
+        "Quantos pontos eu tenho?",
+        "Qual o meu saldo de pontos?"
+      ]
+    },
+    {
+      "group": "previsao_entrega",
+      "phrasings": [
+        "Quando chega a minha compra?",
+        "Qual a previsão de entrega do meu pedido?"
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": "c1",
+      "data": "pedido 1001, status: em separação; entrega prevista: 20/11/2026; saldo de pontos: 120"
+    },
+    {
+      "id": "c2",
+      "data": "pedido 1002, status: enviado à transportadora; entrega prevista: 17/11/2026; saldo de pontos: 0"
+    },
+    {
+      "id": "c3",
+      "data": "pedido 1003, status: entregue; entrega prevista: 10/11/2026; saldo de pontos: 845"
+    },
+    {
+      "id": "c4",
+      "data": "pedido 1004, status: aguardando pagamento; entrega prevista: ainda sem data; saldo de pontos: 60"
+    },
+    {
+      "id": "c5",
+      "data": "pedido 1005, status: cancelado; entrega prevista: não se aplica; saldo de pontos: 310"
+    },
+    {
+      "id": "c6",
+      "data": "pedido 1006, status: saiu para entrega; entrega prevista: 13/11/2026; saldo de pontos: 1500"
+    }
+  ]
+}

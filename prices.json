@@ -1,0 +1,12 @@
+{
+  "source": "Azure Retail Prices API (prices.azure.com), Global meters, read on 2026-11-13",
+  "unit": "USD per 1 million tokens",
+  "chat": {
+    "input": 0.2,
+    "cached_input": 0.02,
+    "output": 1.25
+  },
+  "embeddings": {
+    "input": 0.02
+  }
+}

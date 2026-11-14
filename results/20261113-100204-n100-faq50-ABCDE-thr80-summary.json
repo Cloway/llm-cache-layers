@@ -1,0 +1,105 @@
+{
+  "timestamp": "20261113-100204-n100-faq50-ABCDE-thr80",
+  "params": {
+    "command": "run",
+    "n": 100,
+    "faq_share": 0.5,
+    "personal_share": 0.2,
+    "threshold": 0.8,
+    "seed": 7,
+    "scenarios": "ABCDE",
+    "max_calls": 800,
+    "model": "gpt-5.4-nano",
+    "embeddings": "text-embedding-3-small"
+  },
+  "prices": {
+    "source": "Azure Retail Prices API (prices.azure.com), Global meters, read on 2026-11-13",
+    "unit": "USD per 1 million tokens",
+    "chat": {
+      "input": 0.2,
+      "cached_input": 0.02,
+      "output": 1.25
+    },
+    "embeddings": {
+      "input": 0.02
+    }
+  },
+  "api_calls": 538,
+  "summary": {
+    "A": {
+      "requests": 100,
+      "model_calls": 100,
+      "exact_hits": 0,
+      "semantic_hits": 0,
+      "wrong_hits": 0,
+      "input_tokens": 142127,
+      "cached_tokens": 0,
+      "cached_input_pct": 0.0,
+      "output_tokens": 4497,
+      "cost_usd": 0.034047,
+      "cost_per_1000_usd": 0.3405,
+      "median_latency_s": 1.768,
+      "classifier_accuracy": "-"
+    },
+    "B": {
+      "requests": 100,
+      "model_calls": 100,
+      "exact_hits": 0,
+      "semantic_hits": 0,
+      "wrong_hits": 0,
+      "input_tokens": 139451,
+      "cached_tokens": 121088,
+      "cached_input_pct": 86.8,
+      "output_tokens": 4579,
+      "cost_usd": 0.011818,
+      "cost_per_1000_usd": 0.1182,
+      "median_latency_s": 1.82,
+      "classifier_accuracy": "-"
+    },
+    "C": {
+      "requests": 100,
+      "model_calls": 88,
+      "exact_hits": 12,
+      "semantic_hits": 0,
+      "wrong_hits": 0,
+      "input_tokens": 122663,
+      "cached_tokens": 110592,
+      "cached_input_pct": 90.2,
+      "output_tokens": 3909,
+      "cost_usd": 0.009512,
+      "cost_per_1000_usd": 0.0951,
+      "median_latency_s": 1.714,
+      "classifier_accuracy": "-"
+    },
+    "D": {
+      "requests": 100,
+      "model_calls": 45,
+      "exact_hits": 9,
+      "semantic_hits": 46,
+      "wrong_hits": 30,
+      "input_tokens": 62643,
+      "cached_tokens": 54784,
+      "cached_input_pct": 87.5,
+      "output_tokens": 2195,
+      "cost_usd": 0.005436,
+      "cost_per_1000_usd": 0.0544,
+      "median_latency_s": 0.848,
+      "classifier_accuracy": "-"
+    },
+    "E": {
+      "requests": 100,
+      "model_calls": 75,
+      "exact_hits": 11,
+      "semantic_hits": 14,
+      "wrong_hits": 4,
+      "input_tokens": 104625,
+      "cached_tokens": 94976,
+      "cached_input_pct": 90.8,
+      "output_tokens": 3588,
+      "cost_usd": 0.011355,
+      "cost_per_1000_usd": 0.1136,
+      "median_latency_s": 3.136,
+      "classifier_accuracy": "75/89"
+    }
+  }
+}

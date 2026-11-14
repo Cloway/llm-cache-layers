@@ -1,0 +1,31 @@
+# llm-cache-layers
+
+> Reproducible benchmark of cost, latency and error rate for prompt cache, exact cache, semantic cache and a semantic cache gated by a status store, in a question-answering assistant. Python with no dependencies to run; raw results included. Questions and store rules are in Brazilian Portuguese; documentation is in English.
+
+Read AGENTS.md before operating the repository. The `run` and `calibrate` commands of lab.py make paid API calls; `simulate`, `project` and analyze.py do not.
+
+## Docs
+
+- [README.md](README.md): summary of the experiment and the results
+- [docs/REPORT.md](docs/REPORT.md): technical report with method, tables, charts, cost model and limitations
+- [AGENTS.md](AGENTS.md): setup, rules, commands, result file format and how to extend
+
+## Code
+
+- [lab.py](lab.py): workload generation, scenarios A to G, API calls, simulation and projection
+- [analyze.py](analyze.py): Markdown tables and charts in docs/img from results/
+
+## Data
+
+- [data/system_prompt.md](data/system_prompt.md): system prompt with the rules of a fictional store (Portuguese)
+- [data/questions.json](data/questions.json): frequent questions in four phrasings, personal questions and fictional customers (Portuguese)
+- [prices.json](prices.json): prices per million tokens used in the calculation, with source and date
+- results/*-rows.jsonl: one row per request, with tokens, answer source, correctness and cost
+- results/*-summary.json: parameters and totals per scenario
+- results/*.sqlite: final group status in scenarios F and G
+
+## Optional
+
+- [README.pt-BR.md](README.pt-BR.md): summary in Portuguese
+- [.env.example](.env.example): required environment variables
+- [requirements.txt](requirements.txt): dependency for the charts

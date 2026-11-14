@@ -1,0 +1,47 @@
+{
+  "timestamp": "20261113-102006-n300-faq50-E-thr80",
+  "params": {
+    "command": "run",
+    "n": 300,
+    "faq_share": 0.5,
+    "personal_share": 0.2,
+    "threshold": 0.8,
+    "seed": 7,
+    "scenarios": "E",
+    "max_calls": 950,
+    "k": 2,
+    "audit_rate": 0.1,
+    "model": "gpt-5.4-nano",
+    "embeddings": "text-embedding-3-small"
+  },
+  "prices": {
+    "source": "Azure Retail Prices API (prices.azure.com), Global meters, read on 2026-11-13",
+    "unit": "USD per 1 million tokens",
+    "chat": {
+      "input": 0.2,
+      "cached_input": 0.02,
+      "output": 1.25
+    },
+    "embeddings": {
+      "input": 0.02
+    }
+  },
+  "api_calls": 418,
+  "summary": {
+    "E": {
+      "requests": 300,
+      "model_calls": 164,
+      "exact_hits": 78,
+      "semantic_hits": 58,
+      "wrong_hits": 18,
+      "input_tokens": 228657,
+      "cached_tokens": 208128,
+      "cached_input_pct": 91.0,
+      "output_tokens": 7719,
+      "cost_usd": 0.02552,
+      "cost_per_1000_usd": 0.0851,
+      "median_latency_s": 2.744,
+      "classifier_accuracy": "187/222"
+    }
+  }
+}
